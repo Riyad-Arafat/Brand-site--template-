@@ -1,0 +1,344 @@
+body{
+    
+    font-family: serif;
+}
+a{
+    color: unset;
+    text-decoration: unset;
+}
+a:hover{
+    text-decoration: unset;
+    color: gray;
+}
+p{
+    font-family: cursive;
+}
+img{
+    max-width: 100%;
+}
+.header-section{
+    background: #fff !important;
+    padding: 1em;
+}
+li.nav-item{
+    margin-left: 38px;
+}
+.hero-section{
+    background-image: url(img/Header-background.jpg);
+    background-size: cover;
+}
+.hero-text{
+    padding-top: 16em;
+}
+.hero-section .hero-text h2{
+    color: white;
+    font-size: 56pt;
+    font-weight: 500;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    
+}
+.img-conf{
+    padding-top: 7em;
+}
+.about-conf{
+    padding: 4em;
+    padding-top: 10em;
+    padding-left: 0;
+}
+.i-check::before{
+    content: "\2713";
+    color: red;
+}
+.section-tittle {
+    font-family: serif;
+    padding-top: 9em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+.section-tittle h1{
+    font-size: 31pt;
+    font-weight: 700;
+}
+.section-tittle p{
+    font-family: cursive;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 0;
+
+}
+.member-item {
+    width: 25%;
+    float: left;
+    height: 658px;
+    position: relative;
+    overflow: hidden;
+}
+.set-bg{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.mi-social{
+    text-align: center;
+    color: #007bff;
+    margin-top: 1em;
+    display: inline-block;
+    position: relative;
+    top: -87px;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.mi-social a{
+    font-size: 32pt;
+    padding: 14px;
+
+}
+.mi-text{
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 9px 24px 4px;
+    bottom: 0;
+    position: absolute;
+    width: 82%;
+    left: -566px;
+    margin-bottom: 16px;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+.member-item:hover .mi-text {
+	left: 20px;
+}
+.member-item:hover .mi-social {
+	top: 30px;
+}
+
+.schedule-tab .nav-tabs{
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.schedule-tab .nav-tabs .nav-item{
+    text-align: center;
+    border-radius: 43%;
+    box-shadow: 13px 7px 16px 0px #cccccc;
+    margin-top: 22px;
+}
+
+.nav-tabs .nav-link{
+    border: 0em;
+}
+
+.schedule-tab .nav-tabs .nav-item .nav-link.active{
+    border: 0;
+    background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
+    background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+    color: #fff;
+    border-radius: 43%;
+    box-shadow: 13px 7px 16px 0px #cccccc;  
+}
+.sc-item{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 6px 5px 20px 0 #0000006b;
+    margin-bottom: 25px;
+}
+.sc-item i{
+    color: #f44949;
+}
+
+.sc-logo{
+    text-align: center;
+    padding: 30px 0;
+
+}
+.sc-logo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.sc-text{
+    padding: 30px 0;
+}
+.sc-text ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;    
+
+}
+.sc-text ul li{
+    margin: auto;
+}
+
+.sc-widget {
+    padding: 30px 0;
+}
+.sc-widget ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+.pricing-section{
+    background-image: url(img/Header-background.jpg);
+    padding-bottom: 5em;
+    
+}
+.pricing-section .section-tittle h1{
+    color: #fff;
+}
+.price-item {
+    background: #fff;
+    padding: 29px 0px 61px;
+}
+.price-item h3{
+    text-align: center;
+
+}
+.pi-price{
+    text-align: center;
+    background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
+    background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+    
+}
+.pi-price h2{
+    font-size: 67pt;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+}
+
+
+.pricing-section a {
+    position: relative;
+    left: 34%;
+    bottom: 26px;
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 16px;
+}
+.pricing-section a span{
+    color: red;
+    font-weight: 400;
+}
+.news-item{
+    height: 236px;
+    position: relative;
+    margin-bottom: 32px;
+}
+.news-item img{
+    width: 100%;
+    height: 100%;
+
+}
+.large-item{
+    height: 540px;
+}
+.large-item .n-itm-titlle{
+    padding: 1px 13px 10px;
+}
+.n-itm-titlle{
+    position: relative;
+    color: white;
+    bottom: 83px;
+    padding: 9px;
+    background: #00000059;
+    padding: 1px 13px 0;
+}
+.kind{
+    background-image: repeating-linear-gradient(123deg, #f8507e, #f1773d 100%);
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 11px;
+}
+.location-secticon{
+    padding-top: 60px;
+}
+.location-secticon h1{
+    
+    font-weight: 700;
+}
+.location-secticon span{
+    color: gray;
+    font-size: smaller;
+    font-family: fantasy;
+
+}
+.location-secticon ul{
+    margin: 0em;
+    padding: 0;
+}
+.location-secticon ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 7px;
+}
+.location-secticon ul li span{
+    display: block;
+}
+.map{
+    display: flex;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #171822;
+}
+footer hr{
+    background-color: white;
+}
+footer ul{
+    padding: 0em;
+    list-style: none;
+    display: flex;  
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin-left: 45px;
+}
+footer ul li a{
+    font-size: 18pt;
+    color: white;
+}
+
+.copyright-text{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.fa-heart{
+    color: red;
+}
+.icon{
+    color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    width: 35px;
+    border-radius: 21px;
+    margin-left: 77px;
+}
+footer a:hover{
+    color: grey;
+    text-decoration: unset;
+}
+.icon a:hover{
+    color: unset;
+}
