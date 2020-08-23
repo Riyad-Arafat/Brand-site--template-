@@ -23,6 +23,17 @@ img{
 li.nav-item{
     margin-left: 38px;
 }
+li.nav-item.active {
+    border-bottom: 2px solid #f44949;
+    margin-top: 0;
+}
+li.nav-item:hover {
+    border-bottom: 2px solid #f44949;
+    margin-top: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
 .hero-section{
     background-image: url(img/Header-background.jpg);
     background-size: cover;
@@ -52,8 +63,8 @@ li.nav-item{
 }
 .section-tittle {
     font-family: serif;
-    padding-top: 9em;
-    padding-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
 }
 .section-tittle h1{
@@ -150,6 +161,7 @@ li.nav-item{
     padding: 20px;
     box-shadow: 6px 5px 20px 0 #0000006b;
     margin-bottom: 25px;
+    text-align: center;
 }
 .sc-item i{
     color: #f44949;
@@ -173,10 +185,11 @@ li.nav-item{
     display: flex;
     flex-wrap: wrap;
     padding: 0;    
+    justify-content: center;
 
 }
 .sc-text ul li{
-    margin: auto;
+    margin-left: 15px;
 }
 
 .sc-widget {
@@ -301,6 +314,8 @@ footer{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #171822;
+    box-shadow: 0 -2px 14px 4px #010103;
+
 }
 footer hr{
     background-color: white;
@@ -341,4 +356,136 @@ footer a:hover{
 }
 .icon a:hover{
     color: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+.story-item{
+    display: flex;  
+    margin-bottom: 50px;
+}
+.story-left{
+    padding: 10px;
+    color: red;
+}
+.story-right{
+    padding: 10px;
+}
+.story-right p {
+    padding-top: 24px;
+}
+.Testimonials{
+    padding-bottom: 20px;
+}
+.ta-sw-container{
+    overflow: hidden;
+}
+.ta-swiper{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.ta-item{
+    padding: 20px;
+    box-shadow: 0px 0px 7px 0px #0000008c;
+    margin: 18px;
+   
+}
+.ta-item{
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.ta-item .ta-top img{
+    border-radius: 50%;
+}
+.ta-item .ta-top span{
+    position: relative;
+    color: red;
+}
+.ta-item .ta-top h5{
+    position: relative;
+    font-size: 15pt;
+    font-weight: 800;
+}
+.qoute-mark{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sub-inner {
+    padding: 55px;
+    border-radius: 8px;
+    background-size: cover;
+}
+.sub-text {
+    color: #fff;
+    font-size: 15pt;
+}
+.sub-form{
+    text-align: center;
+}
+.sub-form input {
+    width: 74%;
+    height: 50px;
+    padding: 13px;
+    border-radius: 22px;
+    outline: none;
+}
+.sub-form button {
+    position: absolute;
+    border-radius: 59px;
+    font-size: 16pt;
+    width: 24%;
+    right: 84px;
+    bottom: 34px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .btn-nav{
+        display: none;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-nav{
+        display: none;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .btn-nav{
+        display: none;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
 }
