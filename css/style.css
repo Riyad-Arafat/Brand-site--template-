@@ -49,13 +49,19 @@ li.nav-item:hover {
     margin-bottom: 39px;
     
 }
-.img-conf{
+.conf-section{
     padding-top: 7em;
+    text-align: center;
+}
+.img-conf{
+    margin-bottom: 30px;
+}
+.img-conf img{
+    width: 100%;
+    border-radius: 0.25rem;
 }
 .about-conf{
-    padding: 4em;
-    padding-top: 10em;
-    padding-left: 0;
+    text-align: center;
 }
 .i-check::before{
     content: "\2713";
@@ -96,7 +102,7 @@ li.nav-item:hover {
     margin-top: 1em;
     display: inline-block;
     position: relative;
-    top: -87px;
+    top: -200px;
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
@@ -139,9 +145,9 @@ li.nav-item:hover {
 }
 .schedule-tab .nav-tabs .nav-item{
     text-align: center;
-    border-radius: 43%;
-    box-shadow: 13px 7px 16px 0px #cccccc;
-    margin-top: 22px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 20px 1px #cccccc;
+    margin: 5px;
 }
 
 .nav-tabs .nav-link{
